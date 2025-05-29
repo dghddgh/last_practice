@@ -1,5 +1,5 @@
 def first():
-    print("Привет! Добро пожаловать")
+    print("Привет, друг")
     
 def add_numbers(a, b):
     result = a + b
