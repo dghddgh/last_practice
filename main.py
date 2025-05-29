@@ -1,9 +1,9 @@
 def first():
-    print("Салют!")
+    print("Салют")
     
 def add_numbers(a, b):
     result = a + b
-    print(f"Сумма {a} и {b} будет {result}")
+    print(f"Сумма {a} и {b} равна {result}")
     return result
 def factorial(n):
     if n == 0 or n == 1:
