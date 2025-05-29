@@ -11,10 +11,16 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
     
+def reverse_string(s):
+    reversed_s = s[::-1]
+    print(f"Обратная строка для '{s}': '{reversed_s}'")
+    return reversed_s
+    
 def main():
     first()
     add_numbers(5,7)
     print(f"Факториал числа 5: {factorial(5)}")
+    reverse_string("Окак")
     
 
 
